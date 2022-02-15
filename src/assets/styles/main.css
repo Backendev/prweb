@@ -1,0 +1,51 @@
+.oscuro1{
+    background-color:var(--colorOscuro1);
+}
+.oscuro2{
+    background-color:var(--colorOscuro2);
+}
+.oscuro3{
+    background-color:var(--colorOscuro3);
+}
+.oscuro4{
+    background-color:var(--colorOscuro4);
+}
+.oscuro5{
+    background-color:var(--colorOscuro5);
+}
+.oscuro6{
+    background-color:var(--colorOscuro6);
+}
+.complementario{
+    background-color:var(--colorComplementario);
+}
+.hmain{
+    height: var(--heightMain);
+}
+.wmain{
+    width: var(--widthMain);
+}
+.container1{
+    margin:0;
+    padding:0
+}
+.full{
+    height: var(--heightMain);
+    width: var(--widthMain);
+}
+.f98{
+    height: calc(var(--heightMain)*1);
+    width: calc(var(--widthMain)*0.98);
+}
+.f94{
+    height: calc(var(--heightMain)*0.96);
+    width: calc(var(--widthMain)*0.94);
+}
+.abs1{
+    position:absolute;
+    top:2%;
+    left:2%;
+    background-color:rgba(0,0,0,0.5);
+    opacity:0.5;
+    
+}
