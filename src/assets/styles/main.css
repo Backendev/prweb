@@ -1,23 +1,47 @@
-.oscuro1{
-    background-color:var(--colorOscuro1);
+.color1{
+    background-color:var(--color1);
 }
-.oscuro2{
-    background-color:var(--colorOscuro2);
+.color2{
+    background-color:var(--color2);
 }
-.oscuro3{
-    background-color:var(--colorOscuro3);
+.color3{
+    background-color:var(--color3);
 }
-.oscuro4{
-    background-color:var(--colorOscuro4);
+.color4{
+    background-color:var(--color4);
 }
-.oscuro5{
-    background-color:var(--colorOscuro5);
+.color5{
+    background-color:var(--color5);
 }
-.oscuro6{
-    background-color:var(--colorOscuro6);
+.color6{
+    background-color:var(--color6);
 }
 .complementario{
     background-color:var(--colorComplementario);
+}
+.complementario2{
+    background-color:var(--colorComplementario2);
+}
+.color7{
+    background-color:var(--color7);
+}
+.color8{
+    background-color:var(--color8);
+}
+.color9{
+    background-color:var(--color9);
+}
+.color10{
+    background-color:var(--color10);
+}
+.color11{
+    background-color:var(--color11);
+}
+.color12{
+    background-color:var(--color12);
+}
+.color13{
+    background-color:var(--color13);
 }
 .hmain{
     height: var(--heightMain);
@@ -35,17 +59,55 @@
 }
 .f98{
     height: calc(var(--heightMain)*1);
-    width: calc(var(--widthMain)*0.98);
+    width: calc(var(--widthMain)*0.9899);
 }
 .f94{
     height: calc(var(--heightMain)*0.96);
-    width: calc(var(--widthMain)*0.94);
+    width: calc(var(--widthMain)*0.95);
 }
 .abs1{
     position:absolute;
     top:2%;
     left:2%;
-    background-color:rgba(0,0,0,0.5);
-    opacity:0.5;
+    /* background-color:rgba(0,0,0,0.5); */
     
 }
+body{
+    font-family: 'Orbitron', sans-serif;
+    color:var(--color8);
+    font-size: var(--text_size2);
+
+}
+.font1{
+    font-family: 'Sarpanch', sans-serif;
+}
+.font2{
+    font-family: 'Orbitron', sans-serif;
+}
+.font3{
+    font-family: 'Wire One', sans-serif;
+}
+.text1{
+    color:var(--colorComplementario);
+    font-size: var(--text_size1);
+}
+.text2{
+    color:var(--colorComplementario2);
+    font-size: var(--text_size2);
+}
+.text3{
+    color:var(--color11);
+    font-size: var(--text_size3);
+    border-bottom: 1px var(--color11) solid;
+}
+.text4{
+    font-size: var(--text_size4);
+}
+a{
+    color:var(--color10);
+    text-decoration: overline;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

@@ -2,24 +2,9 @@
     section(:class="col",style="position:relative,overflow:hidden")
         div(id="cont4",class="f98",style="position:relative")
             div(class="f94 abs1 tarriba")
-                | SSSSSSSSSSSSSSSSSSSSSSSSSSSHHHHHHHHHHHHHH
-                |DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-                |EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-                br
-                |HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-                | SSSSSSSSSSSSSSSSSSSSSSSSSSSHHHHHHHHHHHHHH
-                |DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-                |EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-                br
-                |HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-                | SSSSSSSSSSSSSSSSSSSSSSSSSSSHHHHHHHHHHHHHH
-                |DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-                |EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-                br
-                |HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-                | SSSSSSSSSSSSSSSSSSSSSSSSSSSHHHHHHHHHHHHHH
-                |DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-                |EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+                .container_section
+                    .section_c
+                    .section_d
 
     
 </template>

@@ -5,7 +5,7 @@
     mContainer2(:col="color2",style="overflow:hidden")
     mContainer3(:col="color1",style="overflow:hidden")
     mContainer4(:col="color2",style="overflow:hidden")
-    ccanvas
+    com(v-bind:obj_scroll='obj2')
 </template>
 
 <script id="1">
@@ -15,15 +15,19 @@ export default {
   name: 'app',
   data () {
     return {
-      show_palette:true,
+      obj:{
+        msg:"eee",com:"333"
+      },
+      obj2:"dd",
+      show_palette:false,
       colors:{
-        '--colorOscuro1':"#02172a",
-        '--colorOscuro2':"#062740",
-        '--colorOscuro3':"#103352",
-        '--colorOscuro4':"#163c5e",
-        '--colorOscuro5':"#2a5174",
-        '--colorOscuro6':"#a2c0d2",
-        '--colorComplementario':"#dbac68"
+        'color1':"#02172a",
+        'color2':"#062740",
+        'color3':"#103352",
+        'color4':"#163c5e",
+        'color5':"#2a5174",
+        'color6':"#a2c0d2",
+        'colorComplementario':"#dbac68"
       },
       size:{
         mwidth:0,
@@ -39,9 +43,10 @@ export default {
         hposition:0,
         spherepos:0,
         rel_scroll:0,
-        section:0
+        section:0,
         
-      }
+      },
+      
 
 
       
