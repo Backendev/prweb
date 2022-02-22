@@ -209,7 +209,6 @@ export default {
                                 this.value_general_p = item.valor
                                 this.value_objetivos_p = item.objetivos
                                 this.value_subjetivos_p = item.subjetivos
-                                console.log(item.valor)
                             })
                         }
                     }
@@ -221,7 +220,6 @@ export default {
                                 this.value_general_n = item.valor
                                 this.value_objetivos_n = item.objetivos
                                 this.value_subjetivos_n = item.subjetivos
-                                console.log(item)
                             })
                         }
                         
@@ -234,12 +232,10 @@ export default {
                                 this.value_general_ne = item.valor
                                 this.value_objetivos_ne = item.objetivos
                                 this.value_subjetivos_ne = item.subjetivos
-                                console.log(item)
                                 
                             })
                         }
                     }
-                    console.log(item.sentimiento)
                     })
                 }
                 ).then(res => {
@@ -254,6 +250,7 @@ export default {
                     this.chartDataObjetive.datasets[0].data[0] = this.value_objetivos_p
                     this.chartDataObjetive.datasets[0].data[1] = this.value_objetivos_n
                     this.chartDataObjetive.datasets[0].data[2] = this.value_objetivos_ne
+                    window.location.href = "#cont4"
                 })
             .catch(err => console.error(err))
         },
@@ -267,6 +264,7 @@ export default {
             .then(res => {
                 this.response_wiki = res
                 this.charging_wiki = true
+                window.location.href = "#cont4"
                 }
                 )
             .catch(err => console.error(err))

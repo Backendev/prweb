@@ -135,7 +135,6 @@ export default {
         vars.colors(this.cssvars)
         vars.setsize(this.size.mwidth,this.size.mheight)
         this.pers_containers = lib.relations_3d(this.size.mheight)
-        console.log(this.size.orientation)
         this.render_com()
       }
     },
@@ -181,7 +180,6 @@ export default {
       window.addEventListener("scroll",this.onScroll,true)
       window.addEventListener("resize",this.onResize,true)
       this.pers_containers = lib.relations_3d(this.size.mheight)
-      console.log(this.size.orientation)
       
 
 
