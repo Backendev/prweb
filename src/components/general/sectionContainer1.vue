@@ -28,15 +28,15 @@
                             br
                             br
                             div
-                                a(href="https://github.com/muluk-code/codes")
+                                a(href="https://github.com/muluk-code/codes",target="__blank")
                                     |Github con algunos codigos
                                 br
                                 br
-                                a(href="https://github.com/Backendev/codigos")
+                                a(href="https://github.com/Backendev/codigos",target="__blank")
                                     |Github con mas codigos
                                 br
                                 br
-                                a(href="https://colab.research.google.com/drive/1ls_qLQ3Xyb_yo1jDI7KsVOYjKJvnHOgz?usp=sharing")
+                                a(href="https://colab.research.google.com/drive/1ls_qLQ3Xyb_yo1jDI7KsVOYjKJvnHOgz?usp=sharing",target="__blank")
                                     |Notebook con mas Codigos
                     .footer_section
                         div

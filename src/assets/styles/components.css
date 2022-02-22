@@ -1,5 +1,5 @@
 .container_section{
-    display:flex;
+    display:var(--container_section_display);
     align-items: center;
     width: calc(var(--widthMain)*0.95);
     height: calc(var(--heightMain)*0.96);
@@ -10,8 +10,8 @@
     align-items: center;
     text-align: center;
     /* border: 1px var(--colorComplementario) solid; */
-    height: calc(var(--heightMain)*0.94);
-    width: calc(var(--widthMain)*0.47);
+    height: calc(var(--heightMain)*var(--sections_height));
+    width: calc(var(--widthMain)*var(--sections_width));
     margin: 2%;
 }
 .section_b{
@@ -19,27 +19,15 @@
     align-items: center;
     text-align: center;
     /* border: 1px var(--colorComplementario) solid; */
-    height: calc(var(--heightMain)*0.94);
-    width: calc(var(--widthMain)*0.47);
+    height: calc(var(--heightMain)*var(--sections_height));
+    width: calc(var(--widthMain)*var(--sections_width));;
     margin: 2%;
 }
+
 .section_c{
-    display:grid;
-    align-items: center;
-    text-align: center;
     /* border: 1px var(--colorComplementario) solid; */
     height: calc(var(--heightMain)*0.94);
-    width: calc(var(--widthMain)*0.35);
-    margin: 2%;
-}
-.section_d{
-    display:grid;
-    align-items: center;
-    text-align: center;
-    /* border: 1px var(--colorComplementario) solid; */
-    height: calc(var(--heightMain)*0.94);
-    width: calc(var(--widthMain)*0.60);
-    margin: 2%;
+    width: calc(var(--widthMain)*0.95);
 }
 #canvas{
     height: calc(var(--heightMain)*1);

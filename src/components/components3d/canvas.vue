@@ -10,6 +10,7 @@ export default {
   name: "canvasc",
   data() {
     return {
+      
       background: '#02172a',
       alpha: 1,
       canvas: "canvasc",
@@ -25,7 +26,6 @@ export default {
   },
 
   methods: {
-
     init: function() {
       let container = document.getElementById(this.canvas);
       container.style.width = this.width;
@@ -105,6 +105,8 @@ export default {
     },
   },
   mounted() {
+    window.addEventListener("resize",this.resize_component,true)
+    
     this.init();
   },
 };
