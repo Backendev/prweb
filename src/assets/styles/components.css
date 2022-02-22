@@ -81,7 +81,6 @@
     display: grid;
     align-items: end;
     padding: 10%;
-    opacity: 100%;
     height: calc(var(--heightMain) * 0.12);
     background-color: var(--color1alfa);
     border: 1px var(--colorComplementario) solid;
