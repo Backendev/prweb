@@ -13,7 +13,7 @@
                                     button(class="boton1",@click="wiki_api",style="width:calc(var(--widthMain)*var(--button_size));height: calc(var(--heightMain)*0.030)")
                                         |Wiki                                
                                 .input_cont3()
-                                    div(v-show="!charging") Cargando ...
+                                    div(class="displayfull",v-show="!charging") Cargando ...
                                     div(v-show="charging")
                                         div(class="input_section",v-show="opt == 'presentation'")
                                             |En esta seccion puede probar una aplicacion en 
@@ -54,7 +54,7 @@
                                             |en la web de Wikipedia
                                             
                                         div(v-show="opt == 'twits'") 
-                                            div(class="f94 container_section",v-show="!charging_twits") Trayendo datos..
+                                            div(class="displayfull",v-show="!charging_twits") Trayendo datos..
                                             div(v-show="charging_twits")
                                                 div(style="display:var(--container_section_display)")
                                                     div(style="height: calc(var(--heightMain)*var(--sections_height));width: calc(var(--widthMain)*var(--sections_width));")
@@ -89,7 +89,7 @@
                                                             div(class="text1",style="width:var(--width_app_b);display: inline-block") Subjetivos
                                                                 pie-chart(style=";color:red", :data="chartDataSubjetive" :options="chartOptions")
                                         div(v-show="opt == 'wiki'")
-                                            div(class="container_section",v-show="!charging_wiki") Trayendo datos..
+                                            div(class="displayfull",v-show="!charging_wiki") Trayendo datos..
                                             div(style="height:calc(var(--heightMain)*0.785);padding:3%;overflow-y:scroll",v-show="charging_wiki") {{response_wiki.data}}
                                 
 
@@ -322,5 +322,11 @@ export default {
         border: 1px var(--colorComplementario) solid;
         border-radius: 5%;
     }
-    
+    .displayfull{
+        width:calc(var(--widthMain)*0.95);
+        height: calc(var(--heightMain)*0.95);
+        display:grid;
+        text-align: center;
+        align-items: center;
+    }
 </style>
