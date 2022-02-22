@@ -56,6 +56,7 @@ export default {
         'width_app_b':'40%',
         'input_size':0.812,
         'button_size':0.05,
+        'padding_button':0.025
         // 'container_section_display':"flex",
         // "sections_width":0.94,
         // "sections_height":0.47,
@@ -112,6 +113,7 @@ export default {
           this.cssvars.text_size4 = "0.7vw"
           this.cssvars.input_size = 0.812
           this.cssvars.button_size = 0.05
+          this.cssvars.padding_button = 0.025
         }
         if(this.size.orientation == "alto"){
           this.cssvars.container_section_display = "block"
@@ -126,8 +128,9 @@ export default {
           this.cssvars.text_size2 = "1vh"
           this.cssvars.text_size3 = "1.5vh"
           this.cssvars.text_size4 = "0.7vh"
-          this.cssvars.input_size = 0.712
+          this.cssvars.input_size = 0.2
           this.cssvars.button_size = 0.1
+          this.cssvars.padding_button = 0.125
         }
         vars.colors(this.cssvars)
         vars.setsize(this.size.mwidth,this.size.mheight)
@@ -154,6 +157,7 @@ export default {
           this.cssvars.text_size4 = "0.7vw"
           this.cssvars.input_size = 0.812
           this.cssvars.button_size = 0.05
+          this.cssvars.padding_button = 0.025
         }
         if(this.size.orientation == "alto"){
           this.cssvars.container_section_display = "block"
@@ -168,8 +172,9 @@ export default {
           this.cssvars.text_size2 = "1vh"
           this.cssvars.text_size3 = "1.5vh"
           this.cssvars.text_size4 = "0.7vh"
-          this.cssvars.input_size = 0.612
+          this.cssvars.input_size = 0.2
           this.cssvars.button_size = 0.1
+          this.cssvars.padding_button = 0.125
         }
       vars.colors(this.cssvars)
       vars.setsize(this.size.mwidth,this.size.mheight)

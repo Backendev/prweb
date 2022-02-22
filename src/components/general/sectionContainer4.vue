@@ -188,6 +188,7 @@ export default {
     methods:{
         
         twits_api(){
+            window.location.href = "#cont4"
             this.t_positivos=[],
             this.t_neutrales=[],
             this.t_negativos=[],
@@ -257,6 +258,7 @@ export default {
             .catch(err => console.error(err))
         },
         wiki_api(){
+            window.location.href = "#cont4"
             this.opt = "wiki"
             this.charging_wiki = false
             let text = document.getElementById('textfield').value
@@ -283,7 +285,7 @@ export default {
     }
     .input_cont2{
         padding-top: calc(var(--heightMain)*0.05);
-        padding-left: calc(var(--heightMain)*0.025);
+        padding-left: calc(var(--heightMain)*var(--padding_button));
         width:calc(var(--widthMain)*0.95);
         height: calc(var(--heightMain)*0.030);
         display:flex;
