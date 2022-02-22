@@ -22,29 +22,29 @@
                                 br
                     .section_b
                         div(id="habilidadesb" class="text4" style="align-items: center;width:100%;")
-                            div(class="img1 img_contenedor img_python")
+                            div(class="img_contenedor img_python")
                                 |Python
-                            div(class="img1 img_contenedor img_php")
+                            div(class="img_contenedor img_php")
                                 |PHP
-                            div(class="img1 img_contenedor img_ruby")
+                            div(class="img_contenedor img_ruby")
                                 |Ruby
-                            div(class="img1 img_contenedor img_csharp")
+                            div(class="img_contenedor img_csharp")
                                 |C #
-                            div(class="img1 img_contenedor img_javascript")
+                            div(class="img_contenedor img_javascript")
                                 |Javascript
-                            div(class="img1 img_contenedor img_node")
+                            div(class="img_contenedor img_node")
                                 |Node Js
-                            div(class="img1 img_contenedor img_linux")
+                            div(class="img_contenedor img_linux")
                                 |Linux
-                            div(class="img1 img_contenedor img_sql")
+                            div(class="img_contenedor img_sql")
                                 |My Sql
-                            div(class="img1 img_contenedor img_postgres")
+                            div(class="img_contenedor img_postgres")
                                 |PostgreSQL
-                            div(class="img1 img_contenedor img_docker")
+                            div(class="img_contenedor img_docker")
                                 |Docker
-                            div(class="img1 img_contenedor img_git")
+                            div(class="img_contenedor img_git")
                                 |Git
-                            div(class="img1 img_contenedor img_mongo")
+                            div(class="img_contenedor img_mongo")
                                 |Mongo DB
                             
     
